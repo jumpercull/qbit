@@ -1,0 +1,11 @@
+body {
+  font-family: Inter, sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+.ans {
+  padding: 20px;
+  margin: 10px;
+  font-size: 1.2em;
+}
