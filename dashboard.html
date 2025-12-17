@@ -1,5 +1,21 @@
-<h1>Qbits Dashboard</h1>
-<a href="game/host.html">Host Game</a>
-<a href="game/join.html">Join Game</a>
-<a href="shop.html">Shop</a>
-<script type="module" src="dashboard.js"></script>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard – Qbits</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <h2>Qbits Dashboard</h2>
+    <button onclick="logout()">Logout</button>
+  </header>
+
+  <section class="dashboard">
+    <a href="game/host.html" class="card-btn">🎮 Host Game</a>
+    <a href="game/join.html" class="card-btn">🔑 Join Game</a>
+    <a href="shop.html" class="card-btn">🛒 Shop</a>
+  </section>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>
