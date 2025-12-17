@@ -1,4 +1,17 @@
-<input id="code"><button onclick="join()">Join</button>
-<script>
-function join(){location='play.html?code='+code.value}
-</script>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Join – Qbits</title>
+  <link rel="stylesheet" href="game.css">
+</head>
+<body>
+  <input id="code" placeholder="Game Code">
+  <button onclick="join()">Join</button>
+
+  <script>
+    function join() {
+      location.href = "play.html?code=" + code.value;
+    }
+  </script>
+</body>
+</html>
